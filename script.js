@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", async function() {
     let page = window.location.pathname.split("/").pop().split(".")[0];
     let dbMap = {
-        "quran": "data/quran.json",
-        "hadith": "data/hadith.json",
-        "fiqh": "https://raw.githubusercontent.com/mlk96j/dhakker/refs/main/data/fiqh.json"
+        "quran": "https://raw.githubusercontent.com/mlk96j/dhakker/refs/heads/main/data/quran.json",
+        "hadith": "https://raw.githubusercontent.com/mlk96j/dhakker/refs/heads/main/data/hadith.json",
+        "fiqh": "https://raw.githubusercontent.com/mlk96j/dhakker/refs/heads/main/data/fiqh.json"
     };
     
     if (dbMap[page]) {
