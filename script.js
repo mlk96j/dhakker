@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     let dbMap = {
         "quran": "data/quran.json",
         "hadith": "data/hadith.json",
-        "fiqh": "data/fiqh.json"
+        "fiqh": "https://raw.githubusercontent.com/mlk96j/dhakker/refs/heads/data/fiqh.json"
     };
     
     if (dbMap[page]) {
